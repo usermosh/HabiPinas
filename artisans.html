@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Artisans – HabiPinas</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <style>
+        .page-hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 4rem 5%;
+        }
+        .page-hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            animation: slideDown 0.7s ease;
+        }
+        .page-hero p {
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.8;
+            opacity: 0.9;
+            animation: fadeIn 0.8s ease 0.2s both;
+        }
+        .intro-section {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+        }
+        .intro-section p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .support-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.7rem;
+            background: var(--cream);
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            border-left: 3px solid var(--terra);
+            transition: all 0.3s ease;
+        }
+        .support-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .support-icon {
+            font-size: 1.2rem;
+            min-width: 24px;
+        }
+        .ethics-box {
+            background: linear-gradient(135deg, var(--green), #2a4d30);
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 1.5rem;
+        }
+        .ethics-box h3 {
+            margin-bottom: 0.8rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            opacity: 0.8;
+        }
+        .ethics-box p {
+            color: #ffffff;
+            line-height: 1.8;
+            opacity: 0.95;
+            font-size: 0.95rem;
+        }
+        .traditions-title {
+            text-align: center;
+            margin: 3rem 0 0.5rem;
+        }
+        .traditions-subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+        .closing-banner {
+            background: var(--cream);
+            border: 2px solid #e8ddd0;
+            border-radius: 12px;
+            text-align: center;
+            padding: 2.5rem;
+            margin-top: 3rem;
+        }
+        .closing-banner p {
+            font-family: Poppins, sans-serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--brown);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div><strong>HabiPinas</strong></div>
+        <div>
+            <a href='index.html'>Home</a>
+            <a href='shop.html'>Shop</a>
+            <a href='artisans.html'>About the Artisans</a>
+            <a href='cart.html'>Cart (<span id='cart-count'>0</span>)</a>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <h1>Meet the Hands Behind the Weave</h1>
+        <p>
+            At HabiPinas, every product begins with local hands and local stories.
+            We work with selected Filipino producers, small businesses, cooperatives,
+            and artisan communities to bring woven products closer to online consumers.
+        </p>
+    </div>
+
+    <div class="container">
+
+        <!-- Intro & Purpose -->
+        <div class="intro-section">
+            <p>
+                By featuring product origins, province labels, and artisan or producer details,
+                HabiPinas promotes appreciation for Filipino craftsmanship while helping local
+                products gain wider digital exposure.
+            </p>
+
+            <h2 style="margin-bottom:0.8rem">Our Purpose</h2>
+            <p>
+                HabiPinas was created to make Philippine weaving products more accessible to modern
+                consumers while supporting the talent and craftsmanship of local producers from
+                different provinces.
+            </p>
+
+            <h2 style="margin:1.5rem 0 1rem">What We Support</h2>
+            <div class="support-grid">
+                <div class="support-item">
+                    <span class="support-icon"></span>
+                    <span>Direct sourcing from local producers</span>
+                </div>
+                <div class="support-item">
+                    <span class="support-icon"></span>
+                    <span>Proper product origin crediting</span>
+                </div>
+                <div class="support-item">
+                    <span class="support-icon"></span>
+                    <span>Digital exposure for Filipino weaving products</span>
+                </div>
+                <div class="support-item">
+                    <span class="support-icon"></span>
+                    <span>Appreciation of province-based craftsmanship</span>
+                </div>
+                <div class="support-item">
+                    <span class="support-icon"></span>
+                    <span>Ethical and respectful product storytelling</span>
+                </div>
+            </div>
+
+            <div class="ethics-box">
+                <h3>Ethical Sourcing Statement</h3>
+                <p>
+                    HabiPinas does not copy ethnic patterns or claim cultural designs without proper sourcing.
+                    Products will be sourced from legitimate producers, small businesses, cooperatives, or
+                    artisan partners. If exact artisan names or photos are used, permission will be requested
+                    before publishing.
+                </p>
+            </div>
+        </div>
+
+        <!-- Tradition Cards -->
+        <h2 class="traditions-title">Weaving Traditions We Feature</h2>
+        <p class="traditions-subtitle">Each HabiPinas collection is connected to a specific weaving tradition and province.</p>
+
+        <div id="artisans-container"></div>
+
+        <!-- Closing -->
+        <div class="closing-banner">
+            <p>Every woven product has a story. HabiPinas helps carry that story forward.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div style="display:flex;flex-direction:column;gap:0.8rem;align-items:center;text-align:center">
+            <p style="font-family:Poppins,sans-serif;font-size:1rem;font-weight:600">
+                HabiPinas — Woven by Culture, Carried with Purpose.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.2rem 0.1rem">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html#region">Shop by Region</a>
+                <a href="story.html">Our Story</a>
+                <a href="artisans.html">About the Artisans</a>
+                <a href="faq-contact.html#faq">FAQs</a>
+                <a href="faq-contact.html#contact">Contact Us</a>
+            </div>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">Shopee</a>
+            </div>
+            <p style="font-size:0.75rem;opacity:0.7">
+                Images used for academic presentation/mockup purposes only.
+                Product photos belong to their respective suppliers or owners.
+            </p>
+        </div>
+    </footer>
+
+    <script src='js/cart.js'></script>
+    <script src='js/main.js'></script>
+    <script src="js/artisans.js"></script>
+</body>
+
+</html>

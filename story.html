@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story – HabiPinas</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <style>
+        .story-hero {
+            background: linear-gradient(rgba(0,0,0,0.52), rgba(0,0,0,0.52)),
+                        url('https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 5rem 5%;
+            animation: fadeIn 0.8s ease;
+        }
+        .story-hero h1 {
+            font-size: 2.4rem;
+            margin-bottom: 0.5rem;
+        }
+        .story-body {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            margin-bottom: 2rem;
+        }
+        .story-body p {
+            line-height: 1.9;
+            color: #555;
+            margin-bottom: 1.2rem;
+            font-size: 0.98rem;
+        }
+        .mv-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .mv-card {
+            border-radius: 12px;
+            padding: 2rem;
+            animation: fadeIn 0.7s ease;
+        }
+        .mv-card.mission {
+            background: linear-gradient(135deg, var(--brown), #6b4726);
+            color: #fff;
+        }
+        .mv-card.vision {
+            background: linear-gradient(135deg, var(--green), #2a4d30);
+            color: #fff;
+        }
+        .mv-card h2 {
+            color: #fff;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            opacity: 0.75;
+            margin-bottom: 0.8rem;
+        }
+        .mv-card p {
+            color : #ffffff;
+            line-height: 1.8;
+            font-size: 0.95rem;
+            opacity: 0.95;
+        }
+        .values-section {
+            margin-top: 2rem;
+        }
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-top: 1.2rem;
+        }
+        .value-chip {
+            background: var(--cream);
+            border: 2px solid #e8ddd0;
+            border-radius: 10px;
+            padding: 1.2rem 1rem;
+            text-align: center;
+            font-family: Poppins, sans-serif;
+            font-weight: 600;
+            font-size: 0.88rem;
+            color: var(--brown);
+            transition: all 0.3s ease;
+        }
+        .value-chip:hover {
+            background: var(--terra);
+            color: #fff;
+            border-color: var(--terra);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(201,106,61,0.25);
+        }
+        @media (max-width: 600px) {
+            .mv-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div><strong>HabiPinas</strong></div>
+        <div>
+            <a href='index.html'>Home</a>
+            <a href='shop.html'>Shop</a>
+            <a href='artisans.html'>About the Artisans</a>
+            <a href='cart.html'>Cart (<span id='cart-count'>0</span>)</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="story-hero">
+        <h1>Our Story</h1>
+        <p style="opacity:0.85;font-size:1rem">How HabiPinas came to be — and why Filipino weaving matters.</p>
+    </div>
+
+    <div class="container">
+
+        <!-- Main Copy -->
+        <div class="story-body">
+            <p>
+                HabiPinas was created from the idea that Filipino weaving deserves a stronger place in the
+                digital market. Many woven products from the Philippines are meaningful, artistic, and useful,
+                but they are often limited to regional markets, tourist areas, or small online pages.
+            </p>
+            <p>
+                Our business aims to connect these local products to modern online consumers through an
+                organized e-commerce platform. By using a website and Shopee store, HabiPinas makes it easier
+                for customers to discover, understand, and purchase woven accessories from selected provinces.
+            </p>
+            <p>
+                We believe that every product should not only be beautiful, but also meaningful. That is why
+                each HabiPinas product page includes its province, source category, material, care instructions,
+                and producer story.
+            </p>
+
+            <!-- Mission & Vision -->
+            <div class="mv-grid">
+                <div class="mv-card mission">
+                    <h2>Mission</h2>
+                    <p>
+                        To make Philippine woven accessories more accessible through e-commerce while
+                        supporting local producers, cultural appreciation, and meaningful Filipino craftsmanship.
+                    </p>
+                </div>
+                <div class="mv-card vision">
+                    <h2>Vision</h2>
+                    <p>
+                        To become a recognized online platform for curated Philippine woven accessories that
+                        connects customers to local producers and province-based weaving stories.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Brand Values -->
+            <div class="values-section">
+                <h2>Brand Values</h2>
+                <div class="values-grid">
+                    <div class="value-chip">Cultural Appreciation</div>
+                    <div class="value-chip">Local Support</div>
+                    <div class="value-chip">Ethical Sourcing</div>
+                    <div class="value-chip">Accessibility</div>
+                    <div class="value-chip">Functionality</div>
+                    <div class="value-chip">Storytelling</div>
+                    <div class="value-chip">Respect for Craftsmanship</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div style="display:flex;flex-direction:column;gap:0.8rem;align-items:center;text-align:center">
+            <p style="font-family:Poppins,sans-serif;font-size:1rem;font-weight:600">
+                HabiPinas — Woven by Culture, Carried with Purpose.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.2rem 0.1rem">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html#region">Shop by Region</a>
+                <a href="story.html">Our Story</a>
+                <a href="artisans.html">About the Artisans</a>
+                <a href="faq-contact.html#faq">FAQs</a>
+                <a href="faq-contact.html#contact">Contact Us</a>
+            </div>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">Shopee</a>
+            </div>
+            <p style="font-size:0.75rem;opacity:0.7">
+                Images used for academic presentation/mockup purposes only.
+                Product photos belong to their respective suppliers or owners.
+            </p>
+        </div>
+    </footer>
+
+    <script src='js/cart.js'></script>
+    <script src='js/main.js'></script>
+</body>
+
+</html>

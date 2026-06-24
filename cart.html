@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+    <nav>
+        <div><strong>HabiPinas</strong></div>
+        <div>
+            <a href='index.html'>Home</a>
+            <a href='shop.html'>Shop</a>
+            <a href='artisans.html'>About the Artisans</a>
+            <a href='cart.html'>Cart (<span id='cart-count'>0</span>)</a>
+        </div>
+    </nav>
+
+    <div class='container'>
+        <div class='cart-page'>
+            <div class='cart-main'>
+                <h1>Shopping Cart</h1>
+                <div id='empty-cart' class='empty-state'>
+                    <p>Your cart is empty</p>
+                    <a href='shop.html' class='btn'>Continue Shopping</a>
+                </div>
+                <div id='cart-items' class='cart-items-container'></div>
+            </div>
+
+            <div class='cart-summary'>
+                <div class='summary-card'>
+                    <h3>Order Summary</h3>
+                    <div class='summary-row'>
+                        <span>Subtotal:</span>
+                        <span id='subtotal'>₱0</span>
+                    </div>
+                    <div class='summary-row'>
+                        <span>Shipping:</span>
+                        <span id='shipping'>₱0</span>
+                    </div>
+                    <div class='summary-row total'>
+                        <span>Total:</span>
+                        <span id='total'>₱0</span>
+                    </div>
+                    <a href='checkout.html' class='btn btn-checkout' id='checkout-btn'>Proceed to Checkout</a>
+                    <a href='shop.html' class='btn-secondary'>Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div style="display:flex;flex-direction:column;gap:0.8rem;align-items:center;text-align:center">
+            <p style="font-family:Poppins,sans-serif;font-size:1rem;font-weight:600">
+                HabiPinas — Woven by Culture, Carried with Purpose.
+            </p>
+            <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.2rem 0.1rem">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html#region">Shop by Region</a>
+                <a href="story.html">Our Story</a>
+                <a href="artisans.html">About the Artisans</a>
+                <a href="faq-contact.html#faq">FAQs</a>
+                <a href="faq-contact.html#contact">Contact Us</a>
+            </div>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">Shopee</a>
+            </div>
+            <p style="font-size:0.75rem;opacity:0.7">
+                Images used for academic presentation/mockup purposes only.
+                Product photos belong to their respective suppliers or owners.
+            </p>
+        </div>
+    </footer>
+
+    <script src='js/products.js'></script>
+    <script src='js/cart.js'></script>
+    <script src='js/main.js'></script>
+</body>
+</html>
