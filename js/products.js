@@ -13,7 +13,7 @@ const products = [
         bestFor: 'School, work, errands, and everyday use',
         material: 'Inabel woven textile with canvas or cotton lining and reinforced handles',
         description: 'The Inabel Everyday Tote Bag is a functional woven tote designed for school, work, errands, and casual daily use. It features Ilocos-inspired woven textile that gives customers a practical way to carry Filipino craftsmanship wherever they go.',
-        producer: 'This product will be sourced from an Ilocos-based local weaving producer or Inabel-focused supplier. Through this partnership, HabiPinas helps provide digital exposure to local weaving communities and promotes appreciation for Ilocano textile craftsmanship.',
+        producer: 'This tote bag highlights the weaving tradition of Ilocos, where Inabel or Abel Iloko textiles are created through a careful loom-weaving process. Local textile makers prepare the threads, arrange the patterns, and weave the fabric into durable cloth known for its strength and everyday functionality. For this product, the woven textile is transformed into a modern tote bag with lining and reinforced handles. This allows the traditional fabric to become a practical accessory for school, work, errands, and daily use while still carrying the identity of Ilocos craftsmanship.',
         culturalNote: 'Inabel, also known as Abel Iloko, is associated with the weaving traditions of Ilocos. The fabric is known for its strength, patterns, and everyday functionality. Slight variations may occur due to small-batch or handmade production.',
         care: ['Spot clean only', 'Avoid machine washing, bleach, and harsh detergents', 'Store in a dry place'],
         image: 'assets/images/product-1.jpg'
@@ -32,7 +32,7 @@ const products = [
         bestFor: 'Coins, makeup, school supplies, travel items, and small essentials',
         material: 'Cordillera-inspired handwoven textile with zipper closure',
         description: 'The Cordillera Woven Pouch is a compact and useful accessory for small daily essentials. Its woven design highlights local craftsmanship while offering a practical item that can be used for school, work, travel, or gifting.',
-        producer: 'This item will be sourced from a Cordillera-based weaving producer or handwoven product supplier. HabiPinas features this product to help promote regional weaving identity and small producer visibility.',
+        producer: 'This pouch is inspired by Cordillera weaving traditions, which are known for geometric patterns, bold color combinations, and strong cultural identity. The weaving process requires careful planning of thread colors and pattern arrangement before the textile is completed. The woven fabric is then sewn into a compact pouch with a zipper closure, making it useful for coins, makeup, school supplies, travel items, and small personal essentials. This product turns traditional textile inspiration into a simple and functional everyday item.',
         culturalNote: 'Cordillera woven products are known for their distinctive patterns and strong cultural identity. HabiPinas will source only from legitimate local producers and avoid copying or misrepresenting traditional patterns.',
         care: ['Spot clean only', 'Avoid soaking', 'Keep away from excessive moisture'],
         image: 'assets/images/product-2.jpg'
@@ -51,7 +51,7 @@ const products = [
         bestFor: 'Laptop protection, school, work, and online classes',
         material: 'Inabel textile with padded lining',
         description: 'The Inabel Laptop Sleeve combines function and Filipino culture by transforming woven textile into a modern protective accessory for students and professionals. It is designed for customers who want a useful item with local identity.',
-        producer: 'This product will be sourced from an Inabel-based producer or sewing partner using woven textile. HabiPinas supports local producers by giving their woven products a modern e-commerce presentation.',
+        producer: 'This laptop sleeve uses Ilocos-inspired Inabel textile and applies it to a modern digital lifestyle product. Inabel fabric is traditionally made through loom weaving, where threads are carefully interlaced to create durable and patterned textile. After the woven fabric is prepared, it is combined with padding and lining to protect laptops or tablets. This product connects traditional weaving with the needs of students, professionals, freelancers, and online workers.',
         culturalNote: 'This product presents Inabel textile in a modern format suitable for students and working customers. It connects traditional weaving with everyday digital lifestyle needs.',
         care: ['Spot clean only', 'Do not machine wash', 'Keep away from water and heavy moisture'],
         image: 'assets/images/product-3.jpg'
@@ -70,7 +70,7 @@ const products = [
         bestFor: 'Cash, cards, coins, and small essentials',
         material: 'Hablon woven textile with stitched lining',
         description: 'The Hablon Mini Wallet is a lightweight and affordable woven wallet designed for everyday use. It is ideal for customers who want a simple, useful, and meaningful Filipino-made accessory.',
-        producer: 'This product will be sourced from an Iloilo-based Hablon producer, weaving cooperative, or textile supplier. HabiPinas aims to help promote Visayan weaving products through online storytelling and accessible digital selling.',
+        producer: 'This wallet is inspired by Hablon weaving from Iloilo and Panay. Hablon textiles are known for their colorful patterns and handwoven quality. Weavers carefully arrange threads on the loom to create fabric that can be used for clothing, accessories, and home items. For this product, the woven fabric is sewn into a small wallet suitable for cash, cards, coins, and small essentials. It is designed as an affordable and meaningful item for customers who want to support Filipino weaving in a simple and practical way.',
         culturalNote: 'Hablon is a handwoven textile associated with Iloilo and Panay weaving traditions. It can be used for clothing, shawls, accessories, and other textile-based products.',
         care: ['Spot clean only', 'Avoid washing directly with strong detergent', 'Air dry if slightly damp'],
         image: 'assets/images/product-4.jpg'
@@ -89,7 +89,7 @@ const products = [
         bestFor: 'Casual outings, errands, travel, and daily essentials',
         material: 'Hablon textile with lining and adjustable strap',
         description: 'The Hablon Everyday Sling Bag is a stylish and functional accessory for customers who want an easy-to-carry bag with Filipino woven identity. It is suitable for casual days, travel, and simple daily use.',
-        producer: 'This product will be sourced from an Iloilo-based local producer or weaving partner. By featuring this item, HabiPinas promotes Visayan weaving products and helps introduce them to online customers.',
+        producer: 'This sling bag is based on the Hablon textile tradition of Iloilo. Hablon weaving involves the careful interlacing of threads to create colorful fabric with a distinct Visayan textile identity. The fabric is often used in garments, accessories, and functional products. The woven textile is then transformed into a sling bag with lining, zipper, and adjustable strap. This allows the traditional fabric to become a modern everyday accessory for errands, casual outings, travel, and daily use.',
         culturalNote: 'Hablon textiles are known for their woven patterns and connection to Iloilo\'s weaving heritage. This sling bag turns traditional textile into a functional modern accessory.',
         care: ['Spot clean only', 'Avoid heavy washing', 'Store flat or hanging in a dry area'],
         image: 'assets/images/product-5.jpg'
@@ -108,7 +108,7 @@ const products = [
         bestFor: 'Travel items, makeup, toiletries, and accessories',
         material: 'Raffia or natural woven fiber with zipper closure',
         description: 'The Raffia Travel Pouch is a lightweight woven accessory made for organizing small items. Its natural texture makes it practical, giftable, and easy to pair with other HabiPinas products.',
-        producer: 'This product will be sourced from a Visayas-based local producer using raffia or natural woven materials. HabiPinas features this product to promote practical woven accessories made from local natural materials.',
+        producer: 'This travel pouch is inspired by raffia weaving from Bohol and other Visayan craft communities. Raffia is commonly made from fibers taken from the buri palm. The fibers are processed, dried, and woven into natural-textured materials used for bags, pouches, and handicrafts. The woven raffia material is shaped into a travel pouch with a zipper and wrist handle, making it useful for toiletries, makeup, accessories, and small travel items. Its natural texture gives the product a clean, handmade, and eco-conscious appeal.',
         culturalNote: 'Raffia weaving is associated with traditional craft practices in parts of the Visayas, including Bohol. The material gives the product a natural and handmade appeal.',
         care: ['Keep dry', 'Wipe gently with a clean cloth', 'Avoid soaking or folding heavily'],
         image: 'assets/images/product-6.jpg'
@@ -127,7 +127,7 @@ const products = [
         bestFor: 'Cards, IDs, bills, and small essentials',
         material: 'Yakan-inspired woven textile with stitched lining',
         description: 'The Yakan Card Wallet is a compact accessory that highlights the colorful woven artistry associated with Mindanao. It is small, practical, affordable, and meaningful for everyday use.',
-        producer: 'This product will be sourced from a producer connected to Yakan weaving communities or Yakan-inspired woven products. HabiPinas supports proper product crediting and promotes awareness of Mindanao weaving traditions.',
+        producer: 'This card wallet is inspired by Yakan weaving from Basilan and Zamboanga. Yakan textiles are known for vibrant colors, geometric details, and strong visual patterns. The weaving process requires careful thread counting and pattern control to create detailed designs. The woven textile is then made into a compact card wallet for IDs, cards, bills, and small essentials. This product presents Yakan-inspired weaving in a simple, affordable, and accessible everyday form.',
         culturalNote: 'Yakan weaving is known for vibrant colors and geometric patterns. HabiPinas will source from legitimate producers and avoid misrepresenting cultural designs.',
         care: ['Spot clean only', 'Avoid machine washing', 'Keep away from moisture'],
         image: 'assets/images/product-7.jpg'
@@ -146,7 +146,7 @@ const products = [
         bestFor: 'Keepsakes, small essentials, and gift packaging',
         material: "T'nalak-inspired or T'nalak textile sourced from a legitimate producer",
         description: 'The T\'nalak Keepsake Pouch is a meaningful woven accessory inspired by the weaving heritage of South Cotabato. It is designed for customers who want a practical item with a strong cultural story.',
-        producer: 'This product will be sourced from a local producer or artisan partner connected to T\'nalak weaving in South Cotabato. HabiPinas recognizes the importance of respectful sourcing and proper representation when featuring cultural textiles.',
+        producer: 'This keepsake pouch is inspired by T’nalak weaving of the T’boli people of South Cotabato. Traditional T’nalak is made from abaca fibers and is known for its deep cultural meaning. The process may involve preparing fibers, dyeing threads, and weaving symbolic patterns with great care. Because T’nalak has strong cultural value, HabiPinas prioritizes respectful sourcing and proper representation. This pouch format allows the textile inspiration to become a small, functional, and meaningful product while still recognizing the importance of its cultural background.',
         culturalNote: "T'nalak is strongly associated with T'boli weaving traditions in South Cotabato. Because it has deep cultural value, HabiPinas will prioritize ethical sourcing and avoid copying sacred or traditional patterns without proper permission.",
         care: ['Spot clean gently', 'Avoid soaking, bleaching, and machine washing', 'Store in a dry place'],
         image: 'assets/images/product-8.jpg'
@@ -165,7 +165,7 @@ const products = [
         bestFor: 'Fashion accent, formal styling, semi-formal outfits, and premium gifting',
         material: 'Inaul textile or Inaul-inspired woven fabric from local producer',
         description: 'The Inaul Soft Scarf is a statement accessory that adds Filipino elegance to everyday or special-occasion outfits. It is ideal as a personal piece or as a meaningful Filipino-made gift.',
-        producer: 'This product will be sourced from a local producer connected to Maguindanao\'s Inaul weaving tradition. HabiPinas helps promote Mindanao craftsmanship by featuring the product\'s origin and story on its website.',
+        producer: 'This scarf is inspired by Inaul weaving from Maguindanao. Inaul is a handwoven textile known for its vibrant colors, smooth texture, and elegant patterns. Weavers carefully arrange threads on the loom to create fabric that is often used for traditional clothing, formal wear, and meaningful textile pieces. For this product, the woven textile is presented as a soft scarf that can be used for styling, semi-formal outfits, cultural events, or premium gifting. It is one of the higher-value items in the HabiPinas collection because of its elegance, cultural identity, and visual appeal.',
         culturalNote: 'Inaul is a handwoven textile associated with Maguindanao. It is valued for its vibrant colors, woven detail, and cultural meaning. HabiPinas will present the product respectfully and source only from legitimate local producers.',
         care: ['Hand wash gently only when needed or dry clean if possible', 'Do not bleach', 'Air dry flat', 'Store carefully'],
         image: 'assets/images/product-9.jpg'
@@ -184,7 +184,7 @@ const products = [
         bestFor: 'Events, casual occasions, formal accents, and gifts',
         material: 'Mindanao woven textile with lining and zipper or snap closure',
         description: 'The Mindanao Woven Clutch is a fashionable accessory designed for special occasions and casual events. It combines modern styling with local woven craftsmanship, making it useful, stylish, and meaningful.',
-        producer: 'This product will be sourced from a Mindanao-based artisan partner or local producer. Through this product, HabiPinas highlights the talent of Mindanao weaving communities and introduces their products to online buyers.',
+        producer: 'This clutch represents the diverse weaving traditions found in Mindanao. Mindanao is home to several weaving communities, each with its own patterns, colors, materials, and cultural identity. Because of this, the final source of the product must be clearly identified once actual sourcing is confirmed. The woven textile is shaped into a clutch with lining and secure closure, making it suitable for events, casual occasions, and meaningful gifting. This product showcases Mindanao-inspired textile artistry in a stylish and modern accessory while respecting the identity of the community behind the fabric.',
         culturalNote: 'Mindanao is home to several weaving traditions, each with its own identity and style. This product will be clearly labeled based on its final confirmed source to avoid misrepresentation.',
         care: ['Spot clean only', 'Avoid direct soaking', 'Keep in a dry place and store flat to maintain shape'],
         image: 'assets/images/product-10.jpg'
@@ -287,8 +287,8 @@ function loadProductDetails() {
                     onerror="this.src='assets/images/placeholder.jpg'"
                 >
                 <p class="img-disclaimer">
-                    Image used for academic presentation/mockup purposes only.
-                    Product photo credited to the original supplier or owner.
+                    Sample product mockup only. Final patterns and product designs will
+                    be based on actual verified supplier products.
                 </p>
             </div>
 
@@ -317,7 +317,7 @@ function loadProductDetails() {
                 <p class="section-label">About This Product</p>
                 <p>${p.description}</p>
 
-                <p class="section-label">About the Artisan / Producer</p>
+                <p class="section-label">About the Makers and Craft Process</p>
                 <p>${p.producer}</p>
 
                 <p class="section-label">Cultural & Design Note</p>
